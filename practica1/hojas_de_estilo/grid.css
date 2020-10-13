@@ -40,3 +40,13 @@ img{
       /*align-items: center;
       justify-content: center;*/
 }
+/*ESP: 12*/
+@media(max-width:375px){
+      body{
+            grid-template-columns: 1fr;
+            grid-template-areas: "header"
+                                 "aside"
+                                 "section"
+                                 "footer";
+      }   
+}
