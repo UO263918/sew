@@ -1,24 +1,21 @@
+/*ESP:1*/
 body {
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
-    color: #040404;
-    font-size-adjust: initial;
-    background-color: pink;
-  
-    
+    background-color: black;
 }
-
+/*ESP:1*/
 h1, h2{
-    
-    
     font-weight: bold;
-    background-color: pink;
-    color: red;
-
+    background-color: black;
+    color: white;
     padding:2px ;
     margin:5px;
     text-align: center;   
 }
+/*ESP:1*/
 p{
-    font-size: 1.2em
+	color: white;
+    font-size: 1em;
+	text-align: center;
 }
