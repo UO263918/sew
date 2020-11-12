@@ -1,0 +1,1 @@
+document.write("<h1>Nombre del navegador: "+navegador.nombre+"</h1>");

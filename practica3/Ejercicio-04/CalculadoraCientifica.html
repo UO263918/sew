@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+	 <title>Calculadora Cientifica</title>
+    <meta name="author" content="UO263946" />
+    <meta name="description" content="Calculadora Cientifica" />
+    <meta name="keywords" content="calculadora" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+</head>
+
+<body>
+    <section>
+		<h1>Calculadora Cientifica</h1>
+        <div class="calculadora">
+            <input type="text" id="pantalla" value="0" disabled />
+            <div class="calculadora-botones">
+			  <button class="calculadora-botones-vacio" ></button>
+              <button class="calculadora-botones-vacio" ></button>
+              <button class="calculadora-botones-mem" onclick="calculadora.memoriaRC()">mrc</button>
+              <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('+')">m+</button>
+              <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('-')">m-</button>
+            
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('/')">&divide;</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.cuadrado()">x^2</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('**')">x^y</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.seno()">sin</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.coseno()">cos</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.tangente()">tan</button>
+
+              <button class="calculadora-botones-signo" onclick="calculadora.raiz()">&radic;</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.exponenciar10()">10^X</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.logaritmo()">log</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.exponencial()">Exp</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('%')">M</button>
+
+              <button class="calculadora-botones-signo" onclick="calculadora.inversa()">1/x</button>
+              <button class="calculadora-botones-limpia" onclick="calculadora.borrarUltimo()">CE</button>
+              <button class="calculadora-botones-limpia" onclick="calculadora.borrar()">C</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.borrarUltimo()">&#8592;</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('*')">*</button>
+              
+
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero(Math.PI)">&#928;</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('7')">7</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('8')">8</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('9')">9</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('/')">/</button>
+			  
+              
+              <button class="calculadora-botones-signo" onclick="calculadora.factorial()">!</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('4')">4 </button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('5')">5</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('6')">6</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('+')">+</button>
+			 
+              
+			  <button class="calculadora-botones" onclick="calculadora.cambiarSigno()">&#177;</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('1')">1</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('2')">2</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('3')">3</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('-')">-</button>
+
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('(')">(</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero(')')">)</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('0')">0</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('.')">.</button>              
+              
+			  <button class="calculadora-botones-vacio" ></button>
+              <button class="calculadora-botones-vacio" ></button>
+			  <button class="calculadora-botones-vacio" ></button>
+              <button class="calculadora-botones-vacio" ></button>
+              <button class="calculadora-botones-igual" onclick="calculadora.calcular()">=</button>
+            </div>
+        </div>
+		<script src="CalculadoraCientifica.js"></script>
+    </section>
+</body>
+</html>

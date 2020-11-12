@@ -1,0 +1,114 @@
+html{
+     font: 400 15px Arial, sans-serif;
+}
+
+body{
+    color:black;
+	text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;  
+}
+
+.calculadora{
+    max-width: 450px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px gray;
+    background: blue;
+    color:black;
+}
+
+button{
+    fill:unset;
+    text-align: center;
+    padding: 15%;
+    box-shadow: 1px 1px gray; 
+	border: 0.2px solid gray;
+}
+
+.calculadora input   {
+    background: none;
+    border: unset;
+    box-shadow: none;
+    outline: none;
+  
+    padding: 20px 10px;
+    width: 90%;
+
+    color:white;
+    background: lightblue;
+  
+    text-align: right;
+    font-size: 40px;
+    border-radius: 0;
+}
+
+.calculadora-botones{
+
+   padding: 20px;
+
+  
+   display: grid;
+ 
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: red; 
+   
+    color: white;
+    
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;  
+}
+
+button:active{
+    color: white;
+    background-color:orange !important;
+}
+
+.calculadora-botones-signo{
+    background: lightblue; 
+    color: black;
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+    
+}
+
+.calculadora-botones-igual{
+    background: lightblue; 
+    color: black;
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+    
+}
+
+.calculadora-botones-limpia{
+    background: lightblue; 
+    color: black;
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+    
+}
+
+.calculadora-botones-mem{
+    background: blue;  
+    color: white;
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+}
+
+.calculadora-botones-vacio{
+    background: red;  
+    color: white;
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+	border: none
+}
+
+

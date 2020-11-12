@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Ejercicio 3: Calculadora Básica</title>
+    <meta charset="UTF-8" />
+	<meta name="author-name" content="Raúl López Calvo UO263918">
+    <meta name="description" content="Ejercicio 3 de la tercera entrega de la asignatura de SEW"/>
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+</head>
+
+<body>
+    <section>
+		<h1>Ejercicio 3: Calculadora Básica</h1>
+        <div class="calculadora">
+            <input type="text" id="pantalla" value="0" disabled />
+            <div class="calculadora-botones">
+              <button class="calculadora-botones-mem" onclick="calculadora.mrc()">mrc</button>
+              <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('+')">m+</button>
+              <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('-')">m-</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('*')">*</button>
+
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('7')">7</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('8')">8</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('9')">9</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('/')">/</button>
+          
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('4')">4 </button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('5')">5</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('6')">6</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('+')">+</button>
+          
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('1')">1</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('2')">2</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('3')">3</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('-')">-</button>
+
+			  <button class="calculadora-botones-limpia" onclick="calculadora.borrar()">C</button>
+			  <button class="calculadora-botones" onclick="calculadora.anadirNumero('0')">0</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('.')">.</button> 
+              <button class="calculadora-botones-igual" onclick="calculadora.calcular()">=</button>
+            </div>
+        </div>
+		<script src="CalculadoraBasica.js"></script>
+    </section>
+</body>
+</html>

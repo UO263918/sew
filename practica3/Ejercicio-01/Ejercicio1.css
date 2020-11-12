@@ -1,0 +1,21 @@
+/*ESP:1*/
+body {
+    font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    background-color: black;
+}
+/*ESP:1*/
+h1, h2, h3, h4{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding:2px ;
+    margin:5px;
+    text-align: center;   
+}
+/*ESP:1*/
+p{
+	color: white;
+    font-size: 1em;
+	text-align: center;
+}
