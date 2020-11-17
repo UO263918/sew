@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Calculadora Energética</title>
+    <meta name="author-name" content="Raúl López Calvo UO263918">
+    <meta name="description" content="Ejercicio 6 de la tercera entrega de la asignatura de SEW"/>
+	<meta name="viewport" content="width-device-width, initial-scale=1"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraEnergetica.css" />
+
+
+</head>
+
+<body>
+    <main>
+	<h1>Calculadora Energética</h1>
+        <div class="calculadora">
+            <<div class="calculadora-pantalla">
+				<label for="pantalla1">&#32;</label>
+                <input type="text" name="pantalla2" id="pantalla2" value="0" disabled />
+				<label for="pantalla2">&#32;</label>
+                <input type="text" name="pantalla1" id="pantalla1" value="0" disabled />
+            </div>
+            <div class="calculadora-botones">
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('1800')">Ordenador</button>
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('300')">Televisión</button>
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('1200')">Microondas</button>
+
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('1850')">Lavadora</button>
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('1850')">Lavavajillas</button>
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('1850')">Secadora</button>
+
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('1800')">Horno</button>
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('275')">Nevera</button>
+                <button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('2000')">Videoconsola</button>
+
+				<button class="calculadora-botones" onclick="calculadora.anadirElectrodomestico('1750')">Calefacción</button>				
+                <button class="calculadora-boton is-clear" onclick="calculadora.operar('C')">C</button>
+                <button class="calculadora-boton anadir" onclick="calculadora.operar('add')">Anadir</button>
+            </div>
+        </div>
+    </main>
+    <script src="CalculadoraEnergetica.js"></script>
+</body>
+
+
+</html>

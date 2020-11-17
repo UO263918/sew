@@ -1,0 +1,112 @@
+html{
+    font: 400 15px Arial, sans-serif;
+}
+
+body{
+    color:black;
+	text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;   
+}
+
+.calculadora{
+    max-width: 650px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px gray;
+    background: blue;
+    color:white;
+   
+}
+
+button{
+    fill:unset;
+    text-align: center;
+    padding: 15%;
+    box-shadow: 1px 1px gray;
+    border: 0.2px solid gray;
+}
+
+.calculadora input   {
+  background: none;
+    border: unset;
+    box-shadow: none;
+    outline: none;
+  
+    padding: 20px 10px;
+    width: 90%;
+
+    color:white;
+    background: lightblue;
+  
+    text-align: right;
+    font-size: 40px;
+    border-radius: 0;
+  }
+
+
+
+
+.calculadora-botones{
+   padding: 20px;
+
+  
+   display: grid;
+ 
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    background: red; 
+   
+    color: white;
+    
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+}
+
+.numero{
+    background: white;
+    color:black;
+}
+
+.calculadora-pantalla{
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.calculadora-pantalla input{
+    border: 1px solid #111; 
+    margin: 4px;
+    padding: 5px;
+}
+
+.calculadora-botones-signo{
+    background: lightblue; 
+    color: black;
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+    
+}
+
+button:active{
+      color: white;
+    background-color:red !important;
+}
+
+@media only screen and (max-width: 600px){
+    .calculadora-botones{
+        overflow:scroll;
+
+    }
+}
+
+.anadir{
+   background-color: blue;
+   color:white;
+}
+
+.is-clear{
+   background-color: green;
+   color:white;
+}
