@@ -1,18 +1,18 @@
 body {
-      font: 400 15px Tahoma, sans-serif;
-      line-height: 1.8;
-      color: #818181;
-  }
+    font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+  
 h1 {
-      background-color:aliceblue; 
-      color: black;
-      text-transform: uppercase;
-      padding: 100px 10px;
-      text-align: center;     
-  }
+    background-color:orange; 
+    color: white;
+    text-transform: uppercase;
+    padding: 100px 10px;
+    text-align: center;     
+}
 
 section{
-  padding: 3%;
-  background: aliceblue;
-  margin: 15px;
+    padding: 3%;
+    margin: 15px;
 }
