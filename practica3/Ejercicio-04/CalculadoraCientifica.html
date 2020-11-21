@@ -17,8 +17,6 @@
         <div class="calculadora">
             <input type="text" title="pantalla" name="pantalla" id="pantalla" value="0" disabled />
             <div class="calculadora-botones">
-			  <button class="calculadora-botones-vacio" >&#32;</button>
-              <button class="calculadora-botones-vacio" >&#32;</button>
               <button class="calculadora-botones-mem" onclick="calculadora.memoriaRC()">mrc</button>
               <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('+')">m+</button>
               <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('-')">m-</button>
@@ -44,34 +42,30 @@
               
 
 			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero(Math.PI)">&#928;</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('/')">/</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.factorial()">!</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('+')">+</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.cambiarSigno()">&#177;</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('-')">-</button>
+			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('(')">(</button>
+              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero(')')">)</button>
+			  
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('7')">7</button>
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('8')">8</button>
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('9')">9</button>
-			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('/')">/</button>
 			  
-              
-              <button class="calculadora-botones-signo" onclick="calculadora.factorial()">!</button>
+			  
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('4')">4 </button>
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('5')">5</button>
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('6')">6</button>
-			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('+')">+</button>
-			 
-              
-			  <button class="calculadora-botones" onclick="calculadora.cambiarSigno()">&#177;</button>
+			  
+			  
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('1')">1</button>
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('2')">2</button>
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('3')">3</button>
-              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('-')">-</button>
-
-			  <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero('(')">(</button>
-              <button class="calculadora-botones-signo" onclick="calculadora.anadirNumero(')')">)</button>
-              <button class="calculadora-botones" onclick="calculadora.anadirNumero('0')">0</button>
-              <button class="calculadora-botones" onclick="calculadora.anadirNumero('.')">.</button>              
               
-			  <button class="calculadora-botones-vacio" >&#32;</button>
-              <button class="calculadora-botones-vacio" >&#32;</button>
-			  <button class="calculadora-botones-vacio" >&#32;</button>
-              <button class="calculadora-botones-vacio" >&#32;</button>
+              <button class="calculadora-botones" onclick="calculadora.anadirNumero('.')">.</button> 
+			  <button class="calculadora-botones" onclick="calculadora.anadirNumero('0')">0</button>			  
               <button class="calculadora-botones-igual" onclick="calculadora.calcular()">=</button>
             </div>
         </div>
