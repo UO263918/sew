@@ -68,7 +68,7 @@ class CalculadoraRPN{
             break;
             
 			case 'add':
-            if(this.digito===""){}else{
+            if(this.digito==""){}else{
 				this.stack.push(this.digito);
 				this.digito="";
             }
