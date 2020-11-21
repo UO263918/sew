@@ -57,7 +57,7 @@ class MapaEstaticoGoogle {
         var marcador = "&markers=color:blue%7Clabel:S%7C" + this.latitud + "," + this.longitud;
         var sensor = "&sensor=false"; 
         this.imagenMapa = url + centro + zoom + tamano + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"'/>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' alt='mapa'/>";
     }
 }
 var miMapa = new MapaEstaticoGoogle();
