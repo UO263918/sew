@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<ruta id="1">
+		<nombre>
+			Ruta por L'Alt Empordà
+		</nombre>
+		<tipo>
+			Paisajista
+		</tipo>
+		<dificultad>
+			Sencilla
+		</dificultad>
+		<fechaInicio>
+			15/10/2020
+		</fechaInicio>
+		<horaInicio>
+			12:00
+		</horaInicio>
+		<tiempoDuracion>
+			5 días
+		</tiempoDuracion>
+		<agenciaOrganizadora>
+			Sin agencia
+		</agenciaOrganizadora>
+		<descripcionRuta>
+			Ruta sencilla que recorre el mar mediterraneo y los pirineos por unos paisajes espectaculares
+		</descripcionRuta>
+		<personasAdecuadas>
+			Todas las edades
+		</personasAdecuadas>
+		<lugarInicio>
+			Cadaqués
+		</lugarInicio>
+		<direccionInicio>
+			Calle Port Lligat
+		</direccionInicio>
+		<coordenadasInicio>
+			42.293220|3.285771|14
+		</coordenadasInicio>
+		<referencias>
+			<referencia>
+				https://www.salvador-dali.org/es/museos/casa-salvador-dali-de-portlligat/
+			</referencia>
+			<referencia>
+				https://guias-viajar.com/espana/casa-museo-dali-portlligat-cadaques-costa-brava/
+			</referencia>
+			<referencia>
+				https://es.wikipedia.org/wiki/Casa-Museo_Salvador_Dal%C3%AD
+			</referencia>
+		</referencias>
+		<recomendacion>
+			9
+		</recomendacion>
+		<hitos>
+			<hito unidad="metro">
+				<nombre>
+					Cabo de Creus
+				</nombre>
+				<descripcion>
+					Cabo en el cual se puede disfrutar del mar Mediterraneo
+				</descripcion>
+				<coordenadas>
+					42.320414 | 3.315011|57
+				</coordenadas>
+				<distancia>
+					6400
+				</distancia>
+				<tiempo>
+					15
+				</tiempo>
+				<fotografia>
+					https://www.dondeviajamos.com/wp-content/uploads/2018/10/Cap-de-Creus-que-ver-970x654.jpg
+				</fotografia>
+				<video>
+					https://www.youtube.com/watch?v=aEpyPrSeTQU
+				</video>
+			</hito>
+			<hito unidad="metro">
+				<nombre>
+					Roses
+				</nombre>
+				<descripcion>
+					Pueblo pesquero Mediterraneo en el cual veraneaba Salvador Dalí
+				</descripcion>
+				<coordenadas>
+					42.263084 | 3.177932|8
+				</coordenadas>
+				<distancia>
+					21800
+				</distancia>
+				<tiempo>
+					49
+				</tiempo>
+				<fotografia>
+					https://saposyprincesas.elmundo.es/wp-content/uploads/2014/06/playa-de-roses-tcb.jpg
+				</fotografia>
+				<video>
+					https://youtu.be/B6ZvsGD0vbs
+				</video>
+			</hito>
+			<hito unidad="metro">
+				<nombre>
+					Empuriabrava
+				</nombre>
+				<descripcion>
+					Es un pueblo conocido como la Venecia de España
+				</descripcion>
+				<coordenadas>
+					42.242460 | 3.117858 |9
+				</coordenadas>
+				<distancia>
+					20700
+				</distancia>
+				<tiempo>
+					36
+				</tiempo>
+				<fotografia>
+					https://3.bp.blogspot.com/-2rJ3bdtt-QE/XBI1whygN-I/AAAAAAAAAww/2q72ZNM1ZfU3yUyHiEeJhgf_QaoBhqDngCLcBGAs/s640/Screenshot_20181213-113230_Google.jpg
+				</fotografia>
+				<video>
+					https://www.youtube.com/watch?v=RoDgUrX4hOo
+				</video>
+			</hito>
+			<hito unidad="metro">
+				<nombre>
+					Figueres
+				</nombre>
+				<descripcion>
+					Pueblo de la costa del Mediterraneo
+				</descripcion>
+				<coordenadas>
+					42.264674 | 2.957304 |46
+				</coordenadas>
+				<distancia>
+					17600
+				</distancia>
+				<tiempo>
+					24
+				</tiempo>
+				<fotografia>
+					https://www.ecestaticos.com/imagestatic/clipping/07b/e30/07be30277ca131df6d009551779faff2/el-tiempo-en-figueres-para-hoy-alerta-amarilla-por-fenomenos-costeros.jpg?mtime=1579565836
+				</fotografia>
+				<video>
+					https://youtu.be/AOBaiu20EsM
+				</video>
+			</hito>
+			<hito unidad="metro">
+				<nombre>
+					Torre Galatea
+				</nombre>
+				<descripcion>
+					Torre surrealista que se encuentra en Figueres
+				</descripcion>
+				<coordenadas>
+					42.267819 | 2.959222 |57
+				</coordenadas>
+				<distancia>
+					600
+				</distancia>
+				<tiempo>
+					2
+				</tiempo>
+				<fotografia>
+					https://www.cinconoticias.com/wp-content/uploads/Torre-Galatea.jpg
+				</fotografia>
+				<video>
+					https://www.youtube.com/watch?v=gJRlTZOAjHs
+				</video>
+			</hito>
+			<hito unidad="metro">
+				<nombre>
+					Pueblo Perelada
+				</nombre>
+				<descripcion>
+					Pueblo de estilo medieval
+				</descripcion>
+				<coordenadas>
+					42.308230 | 3.009326 |35
+				</coordenadas>
+				<distancia>
+					8800
+				</distancia>
+				<tiempo>
+					12
+				</tiempo>
+				<fotografia>
+					http://cbrava.com/wp-content/uploads/2015/01/foto4-2-300x199.jpg
+				</fotografia>
+				<video>
+					https://www.youtube.com/watch?v=DA7hiLBTei8
+				</video>
+			</hito>
+		</hitos>
+	</ruta>

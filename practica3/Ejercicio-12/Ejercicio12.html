@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12</title>
+    <meta name="author-name" content="Raúl López Calvo UO263918">
+	<meta name="description" content="Ejercicio 12 de la tercera entrega de la asignatura de SEW"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="Ejercicio12.css" rel="stylesheet"/>
+</head>
+
+<body>
+	<header>
+		<h1>Ejercicio 12</h1>
+	</header>
+    <p>
+        <input id="archivosSubidos" type="file" name="Archivos" onchange="cargador.calcularTamañoArchivos();" >
+    </p>
+    <p>Archivos seleccionados:
+        <span id="numeroArchivos">0</span>
+    </p>
+    <p>Tamaño total:
+        <span id="tamañoArchivos">0</span>
+    </p>
+    <span id="nombres"></span>
+    <script src="Ejercicio12.js"></script>
+</body>
+
+</html>
