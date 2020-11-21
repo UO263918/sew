@@ -53,7 +53,7 @@ button{
  
    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background: red; 
+    background: black; 
    
     color: white;
     
@@ -103,7 +103,7 @@ button:active{
 }
 
 .calculadora-botones-vacio{
-    background: red;  
+    background: black;  
     color: white;
     border-radius: 5px;
     font-size: 22px; 

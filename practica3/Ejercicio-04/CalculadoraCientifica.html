@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-	<title>Calculadora Cientifica</title>
+	<title>Calculadora Científica</title>
     <meta name="author-name" content="Raúl López Calvo UO263918">
     <meta name="description" content="Ejercicio 4 de la tercera entrega de la asignatura de SEW"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,13 +13,12 @@
 
 <body>
     <section>
-		<h1>Calculadora Cientifica</h1>
+		<h1>Calculadora Científica</h1>
         <div class="calculadora">
-            <label for="pantalla">&#32;</label>
-            <input type="text" name="pantalla" id="pantalla" value="0" disabled />
+            <input type="text" title="pantalla" name="pantalla" id="pantalla" value="0" disabled />
             <div class="calculadora-botones">
-			  <button class="calculadora-botones-vacio" ></button>
-              <button class="calculadora-botones-vacio" ></button>
+			  <button class="calculadora-botones-vacio" >&#32;</button>
+              <button class="calculadora-botones-vacio" >&#32;</button>
               <button class="calculadora-botones-mem" onclick="calculadora.memoriaRC()">mrc</button>
               <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('+')">m+</button>
               <button class="calculadora-botones-mem" onclick="calculadora.memoriaOperacion('-')">m-</button>
@@ -69,10 +68,10 @@
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('0')">0</button>
               <button class="calculadora-botones" onclick="calculadora.anadirNumero('.')">.</button>              
               
-			  <button class="calculadora-botones-vacio" ></button>
-              <button class="calculadora-botones-vacio" ></button>
-			  <button class="calculadora-botones-vacio" ></button>
-              <button class="calculadora-botones-vacio" ></button>
+			  <button class="calculadora-botones-vacio" >&#32;</button>
+              <button class="calculadora-botones-vacio" >&#32;</button>
+			  <button class="calculadora-botones-vacio" >&#32;</button>
+              <button class="calculadora-botones-vacio" >&#32;</button>
               <button class="calculadora-botones-igual" onclick="calculadora.calcular()">=</button>
             </div>
         </div>
