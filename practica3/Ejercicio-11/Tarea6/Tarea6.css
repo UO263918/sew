@@ -1,0 +1,11 @@
+#mapa {
+    height: 500px;
+    width: 100%;
+}
+h1 {
+    background-color:orange; 
+    color: black;
+    text-transform: uppercase;
+    padding: 100px 10px;
+    text-align: center;     
+}
